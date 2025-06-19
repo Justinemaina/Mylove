@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>💌</strong>
+                        <p>To my Ririi 🥺💌,</p>
+                        <p>I’ve tried to find the perfect way to say all this, but the truth is…🥲 nothing I write will ever fully capture what you mean to me. But I’m still going to try, because you deserve to hear it. All of it.</p>
+                        <p>From the very beginning, when we just clicked without trying, it felt different. Natural. Real. Then came that one random day when I decided to call you… and I haven’t looked back since. That one call changed something in me. You became a constant. A calm. A soft place for my mind to land 😭🥹.</p>
+                        <p>Even without being here in person, you do what no one else has been able to do. You silence the noise in my head. You bring peace into my chaos. Some people talk about soul ties or unspoken connections… I think we have that. Something rare. Something honest.</p>
+                        <p>Ririi, with you… I don't need filters. I don’t need to pretend. I can just be me. And that’s something I’ve never really had before. You’ve heard my thoughts at their rawest, and instead of pushing away, you stayed. You laughed with me, sat in the silence with me, called me out when needed, and just... understood🥺💞.</p>
+                        <p>The way I love you is simple, but deep. It’s not loud or dramatic. It’s in how often I think of you. How your voice replays in my head when things get too heavy. How I want to tell you first when something good or bad happens. You’re not just someone I talk to… you’ve become part of my world ❤️.</p>
+                        <p>And I know we haven’t met yet, but that day is coming. I don’t know what I’ll say when I finally see you face to face, but I know I’ll feel something familiar. Like I’m looking at someone I’ve already known forever.</p>
+                        <p>I hope you know I’m here. For the small things, the heavy days, the randomness, the late night thoughts… all of it. You’ve been there for me in ways I can’t fully explain, and I want to be that for you too. Always.</p>
+                        <p>Thank you for being you. For being my Ririi.<br>
+                        I love you. Not just today. But every day I get to know you more💗.</p>
+                        <p>Honestly, I could go on and on about how special you are to me, how much I care about you, and how deeply I feel this connection… but I’ll leave it at this for now.❤️
+
+                        </p>
+                        <p>Yours, completely,<br>
+                        .....Justine🥹❤️</p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <div class="floating-hearts"></div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
